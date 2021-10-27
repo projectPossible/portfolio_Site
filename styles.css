@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("brandi-redd-aJTiW00qqtI-unsplash.jpg");
+    background-size: cover;
+}
+header ul{
+    position: fixed;
+    left: 0; top: 0;
+    height: 100vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{    
+    text-decoration: none;    
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 200px;        
+    transition-property: width, text-shadow;
+    transition-duration: 2s;
+}
+header ul li a:hover{    
+    text-decoration: none;    
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 200px;
+    width: 80%;
+    text-shadow: 1px 1px 1px rgb(24, 105, 211),
+    1px 2px 8px rgb(24, 105, 211), 
+    1px 3px 15px rgb(24, 105, 211),
+    1px 4px 25px rgb(24, 105, 211);
+}
+@keyframes colorchange{
+    0% { color: rgb(221, 207, 207);
+        font-family: 'verdana', sans-serif;
+        font-size:90px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px rgb(187, 173, 173),
+        1px 2px 1px rgb(187, 173, 173),
+        1px 3px 1px rgb(187, 173, 173),
+        1px 4px 1px rgb(187, 173, 173),
+        1px 5px 1px rgb(187, 173, 173),
+        1px 6px 1px rgb(187, 173, 173),
+        1px 7px 1px rgb(187, 173, 173),
+        1px 20px 6px rgb(0,0,0),
+        1px 35px 15px rgb(0,0,0),
+        1px 40px 30px rgb(0,0,0),
+        1px 55px 60px rgb(0,0,0); }
+
+    100%{ color: rgb(244, 7, 7);
+        font-family: 'verdana', sans-serif;
+        font-size:90px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px rgb(244, 7, 7),
+        1px 2px 1px rgb(194, 16, 16),
+        1px 3px 1px rgb(194, 16, 16),
+        1px 4px 1px rgb(194, 16, 16),
+        1px 5px 1px rgb(194, 16, 16),
+        1px 6px 1px rgb(194, 16, 16),
+        1px 7px 1px rgb(194, 16, 16),
+        1px 20px 6px rgb(0,0,0),
+        1px 35px 15px rgb(0,0,0),
+        1px 40px 30px rgb(0,0,0),
+        1px 55px 60px rgb(0,0,0);  }
+}
+main .heading{
+    position:fixed;
+    top:0; left: 15%;
+    height: 100vh;
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .heading h1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+main .heading h1 #head1{color: rgb(244, 7, 7);
+    font-family: 'verdana', sans-serif;
+    font-size:90px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(244, 7, 7),
+    1px 2px 1px rgb(194, 16, 16),
+    1px 3px 1px rgb(194, 16, 16),
+    1px 4px 1px rgb(194, 16, 16),
+    1px 5px 1px rgb(194, 16, 16),
+    1px 6px 1px rgb(194, 16, 16),
+    1px 7px 1px rgb(194, 16, 16),
+    1px 20px 6px rgb(0,0,0),
+    1px 35px 15px rgb(0,0,0),
+    1px 40px 30px rgb(0,0,0),
+    1px 55px 60px rgb(0,0,0);         
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+main .heading h1 #head2{
+    color: rgb(221, 207, 207);
+    font-family: 'verdana', sans-serif;
+    font-size:90px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(187, 173, 173),
+    1px 2px 1px rgb(187, 173, 173),
+    1px 3px 1px rgb(187, 173, 173),
+    1px 4px 1px rgb(187, 173, 173),
+    1px 5px 1px rgb(187, 173, 173),
+    1px 6px 1px rgb(187, 173, 173),
+    1px 7px 1px rgb(187, 173, 173),
+    1px 20px 6px rgb(0,0,0),
+    1px 35px 15px rgb(0,0,0),
+    1px 40px 30px rgb(0,0,0),
+    1px 55px 60px rgb(0,0,0);         
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;       
+}
+/* main .heading h1 #head2:hover{
+    color: rgb(244, 7, 7);
+    font-family: 'verdana', sans-serif;
+    font-size:90px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(244, 7, 7),
+    1px 2px 1px rgb(194, 16, 16),
+    1px 3px 1px rgb(194, 16, 16),
+    1px 4px 1px rgb(194, 16, 16),
+    1px 5px 1px rgb(194, 16, 16),
+    1px 6px 1px rgb(194, 16, 16),
+    1px 7px 1px rgb(194, 16, 16),
+    1px 20px 6px rgb(0,0,0),
+    1px 35px 15px rgb(0,0,0),
+    1px 40px 30px rgb(0,0,0),
+    1px 55px 60px rgb(0,0,0);        
+} */
+footer{
+    position: absolute;
+    right: 0; top:0;
+    width: 45vw;
+}
+footer section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 50px;
+}
+
+footer #home{
+    text-transform: capitalize;
+    font-size: 50px;
+}
+footer #about button{
+    background-color: white;
+    border-style: none;
+}
+footer #about button a{
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+footer #career ul{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer #career ul li div{
+    margin: 0;
+    height:50px;
+    width: 10px;
+    border-style: dotted none dotted dashed;
+    border-width: 10px 5px;
+}
+footer #career ul .emphas{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+footer #career ul a{
+    text-decoration: none;
+}
+footer #career ul .cap{
+    text-transform: capitalize;
+}
+footer #career ul .upp{
+    text-transform: uppercase;
+}
+footer #skills ul{
+    display: flex;
+    flex-flow: column wrap;
+}
+footer #skills ul li{
+    background-color: rgba(183, 171, 171,0.3);
+    border-style: groove;
+    border-radius: 10px;
+    list-style: none;
+    text-transform: capitalize;
+    margin: 5px;
+}
+footer #contact ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer #contact ul img{
+    margin: 5px;
+    vertical-align:-15px;
+}
+footer #contact ul li{
+    list-style: none;
+}
+footer #contact ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
